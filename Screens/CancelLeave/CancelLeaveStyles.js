@@ -32,7 +32,7 @@ export default StyleSheet.create({
     },
     headerTxt: {
         fontSize: Scale(17),
-        color: "#FFFFFF",
+        color: "#fffgit ",
         fontWeight: "600",
         textAlign: "center",
         flex: 1,
