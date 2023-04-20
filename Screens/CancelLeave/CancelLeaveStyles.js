@@ -4,7 +4,7 @@ import Scale from "../../Scale";
 export default StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#fff"
+        backgroundColor: "#F8F6FB"
     },
 
     imgBg: {
@@ -32,7 +32,7 @@ export default StyleSheet.create({
     },
     headerTxt: {
         fontSize: Scale(17),
-        color: "#FFFFFF",
+        color: "#fff",
         fontWeight: "600",
         textAlign: "center",
         flex: 1,
@@ -67,5 +67,17 @@ export default StyleSheet.create({
         alignItems: "center",
         borderRadius: Scale(5),
     },
+    mainBtn: {
+        backgroundColor: "red",
+        marginHorizontal: Scale(20),
+        borderRadius: Scale(10),
+        height: Scale(80),
+        marginBottom: Scale(10)
+    },
+    radioImg: {
+        height: Scale(25),
+        width: Scale(25),
+        resizeMode: "contain"
+    }
 }
 )
