@@ -5,7 +5,7 @@ import styles from './SplashScreenStyle'
 export default class SplashScreen extends Component {
     componentDidMount() {
         setTimeout(() => {
-            this.props.navigation.navigate("CancelLeave")
+            this.props.navigation.navigate("ChatsID")
         }, 1000)
     }
 

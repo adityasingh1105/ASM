@@ -8,6 +8,8 @@ import ApplyLeaves from './Screens/ApplyLeaves/ApplyLeaves'
 import LeavesHistory from './Screens/LeavesHistory/LeavesHistory'
 import LeaveBalance from './Screens/LeaveBalance/LeaveBalance'
 import CancelLeave from './Screens/CancelLeave/CancelLeave'
+import ChatScreen from './Screens/Chats/ChatScreen'
+import ChatsID from './Screens/Chats/ChatsID'
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React, { Component } from 'react'
@@ -45,6 +47,12 @@ export default function App() {
           />
           <Stack.Screen name="CancelLeave" component={CancelLeave}
             options={{ gestureEnabled: false, headerShown: false }}
+          />
+          <Stack.Screen name="ChatScreen" component={ChatScreen}
+            options={{ gestureEnabled: false, headerShown: true }}
+          />
+          <Stack.Screen name="ChatsID" component={ChatsID}
+            options={{ gestureEnabled: false, headerShown: true }}
           />
         </Stack.Navigator>
       </NavigationContainer>

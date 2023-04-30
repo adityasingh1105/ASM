@@ -68,16 +68,62 @@ export default StyleSheet.create({
         borderRadius: Scale(5),
     },
     mainBtn: {
-        backgroundColor: "red",
         marginHorizontal: Scale(20),
         borderRadius: Scale(10),
         height: Scale(80),
-        marginBottom: Scale(10)
+        marginBottom: Scale(10),
+        padding: Scale(10),
+        flexDirection: "row",
+        alignItems: 'center',
+        justifyContent: "space-between",
+        backgroundColor: "#ffffff"
     },
     radioImg: {
         height: Scale(25),
         width: Scale(25),
         resizeMode: "contain"
+    },
+    insideView: {
+        height: Scale(50),
+        width: Scale(315)
+    },
+    innerTxtView: {
+        flexDirection: 'row',
+        justifyContent: "space-between",
+        alignItems: 'center'
+    },
+    statusView: {
+        height: Scale(30),
+        backgroundColor: "#FEF4E5",
+        width: Scale(90),
+        borderRadius: Scale(5),
+        // justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "row",
+        paddingHorizontal: Scale(10)
+    },
+    statusImg: {
+        height: Scale(13),
+        width: Scale(13),
+        resizeMode: "contain",
+        marginRight: Scale(10)
+    },
+    timeTxt: {
+        fontSize: Scale(14),
+        fontWeight: "600",
+        color: "#000"
+    },
+    statusTxt: {
+        fontSize: Scale(12),
+        fontWeight: "400",
+        color: "#FF970E"
+    },
+    titleTxt: {
+        fontSize: Scale(12),
+        fontWeight: "400",
+        color: "#000",
+        marginTop: Scale(10)
+
     }
 }
 )
